@@ -6,7 +6,7 @@
 :set smarttab
 :set softtabstop=4
 :set expandtab
-:set mouse=a
+:set mouse=v
 
 call plug#begin()
 Plug 'https://github.com/vim-airline/vim-airline'                       " Bottom Visual Aid
@@ -17,6 +17,9 @@ Plug 'https://github.com/rafi/awesome-vim-colorschemes'                 " Retro 
 Plug 'https://github.com/terryma/vim-multiple-cursors'                  " CTRL + N for multiple cursors
 Plug 'https://github.com/tpope/vim-commentary'                          " For Commenting gcc & gc
 call plug#end()
+
+" Set colorscheme (from awesome-vim-colorschemes plugin)
+:colorscheme solarized8
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
@@ -40,3 +43,5 @@ nnoremap <C-E> <C-\><C-n>
 "       - :CocInstall coc-python
 "       - :CocInstall coc-go
 "       - etc.
+
+
