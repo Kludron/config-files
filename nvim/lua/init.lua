@@ -1,1 +1,1 @@
-/home/turd/.config/nvim/init.lua
+$HOME/.config/nvim/init.lua
