@@ -55,5 +55,4 @@ vim.opt.wrap = true -- display lines as one long line
 
 -- -- enable filetype-specific settings
 vim.g.do_filetype_lua = 1
-vim.g.did_load_filetypes = 0
 
